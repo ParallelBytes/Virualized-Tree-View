@@ -1,0 +1,48 @@
+{
+  "name": "react-virtualized-tree",
+  "version": "1.0.0",
+  "description": "A virtualized tree view component using React and Konva",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "demo": "vite --open /demo/index.html"
+  },
+  "peerDependencies": {
+    "react": ">=18 <20",
+    "react-dom": ">=18 <20",
+    "konva": ">=9 <11",
+    "react-konva": ">=18 <20",
+    "react-konva-utils": ">=1 <=2" 
+  },
+  "dependencies": {},
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "konva",
+    "tree",
+    "org-chart",
+    "virtualized",
+    "canvas"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "devDependencies": {
+    "@types/react": ">=18 <20",
+    "@types/react-dom": ">=18 <20",
+    "@vitejs/plugin-react": ">=4 <5",
+    "typescript": ">=5 <6",
+    "vite": ">=5 <6",
+    "vite-plugin-dts": ">=3 <4"
+  }
+}

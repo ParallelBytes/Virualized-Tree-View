@@ -1,0 +1,13 @@
+export const MARGIN_X = 150;
+export const MARGIN_Y = 100;
+export const HALF_MARGIN_X = MARGIN_X / 2;
+export const HALF_MARGIN_Y = MARGIN_Y / 2;
+export const MIN_ZOOM_SCALE = 0.1;
+export const MAX_ZOOM_SCALE = 2;
+export const ZOOM_SCALE_BY = 1.2;
+export const LINE_ADJUSTMENT = 55; // Aligns with center of 40px node (75 - 20)
+export const Y_ADJUSTMENT_FOR_LINE = -20; // Draws lines upwards
+export const INITIAL_ZOOM_SCALE = 1;
+export const CENTER_OFFSET_X = 0;
+export const CENTER_OFFSET_Y = 0;
+export const TWEEN_DURATION = 0.3;
