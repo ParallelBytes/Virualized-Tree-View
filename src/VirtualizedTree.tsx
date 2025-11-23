@@ -16,14 +16,14 @@ import { DefaultNodeElement } from './DefaultNodeElement';
 import { ZoomControls } from './ZoomControls';
 import type {
   NodeData,
-  OrgChartTreeProps,
+  VirtualizedTreeProps,
   StagePosition,
   StageSize,
   ViewportBounds,
   LineData,
 } from './types';
 
-export function OrgChartTree<T>({
+export function VirtualizedTree<T>({
   data,
   canvasWidth,
   canvasHeight,
@@ -35,7 +35,7 @@ export function OrgChartTree<T>({
   verticalMargin = 100,
   nodeWidth = 40,
   nodeHeight = 40,
-}: OrgChartTreeProps<T>) {
+}: VirtualizedTreeProps<T>) {
   const MARGIN_X = horizontalMargin;
   const MARGIN_Y = verticalMargin;
   const HALF_MARGIN_X = MARGIN_X / 2;

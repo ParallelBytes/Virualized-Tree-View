@@ -20,7 +20,7 @@ npm install react react-dom konva react-konva react-konva-utils
 
 ```tsx
 import React from 'react';
-import { OrgChartTree, NodeData } from 'react-virtualized-tree';
+import { VirtualizedTree, NodeData } from 'react-virtualized-tree';
 
 const data: NodeData = {
   id: 1,
@@ -49,7 +49,7 @@ const data: NodeData = {
 function App() {
   return (
     <div style={{ width: '100vw', height: '100vh' }}>
-      <OrgChartTree
+      <VirtualizedTree
         data={data}
         zoom={true}
         pan={true}
@@ -119,7 +119,7 @@ const CustomNode = ({ node }: { node: NodeData<{ name: string; role: string }> }
 };
 
 // Usage
-<OrgChartTree 
+<VirtualizedTree 
   data={data} 
   NodeElement={CustomNode} 
 />

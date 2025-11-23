@@ -10,7 +10,7 @@ export interface NodeData<T = any> {
   children?: NodeData<T>[];
 }
 
-export interface OrgChartTreeProps<T> {
+export interface VirtualizedTreeProps<T> {
   data: NodeData<T>;
   canvasWidth?: number;
   canvasHeight?: number;

@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { OrgChartTree } from '../src/OrgChartTree';
+import { VirtualizedTree } from '../src/VirtualizedTree';
 import { sampleData } from './data';
 
 const App = () => {
   return (
-    <OrgChartTree
+    <VirtualizedTree
       data={sampleData}
       onNodeClick={(node) => console.log('Clicked:', node)}
     />
