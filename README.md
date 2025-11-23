@@ -73,6 +73,10 @@ export default App;
 | `pan` | `boolean` | `true` | Enable or disable panning. |
 | `onNodeClick` | `(node: NodeData<T>) => void` | `undefined` | Callback function when a node is clicked. |
 | `NodeElement` | `React.ComponentType<{ node: NodeData<T> }>` | `DefaultNodeElement` | Custom component to render for each node. |
+| `horizontalMargin` | `number` | `150` | Horizontal spacing between nodes. |
+| `verticalMargin` | `number` | `100` | Vertical spacing between levels. |
+| `nodeWidth` | `number` | `40` | Width of the node (used for line calculation). |
+| `nodeHeight` | `number` | `40` | Height of the node (used for line calculation). |
 
 ## Types
 
