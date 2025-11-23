@@ -1,6 +1,6 @@
 {
   "name": "@parallelbytes/react-virtualized-tree",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A virtualized tree view component using React and Konva",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
