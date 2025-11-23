@@ -1,0 +1,20 @@
+# Source files
+src
+demo
+tsconfig.json
+vite.config.ts
+
+# Git
+.git
+.gitignore
+
+# Editor
+.vscode
+.idea
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Dependencies
+node_modules
