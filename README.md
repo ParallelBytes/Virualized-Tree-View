@@ -85,10 +85,10 @@ export default App;
 ```typescript
 interface NodeData<T = any> {
   id: number;
-  x: number; // Internal use (calculated position)
-  y: number; // Internal use (calculated position)
-  level: number; // Internal use (depth level)
-  index: number; // Internal use (index in level)
+  x: number; // Position on X axis
+  y: number; // Position on Y axis
+  level: number; // Level of the node
+  index: number; // Index of the node
   hasChildren: boolean;
   isExpanded: boolean;
   nodeInfo: T; // Your custom data here
