@@ -1,6 +1,6 @@
-# React-Virtualized-Tree
+# React Virtualized Tree
 
-A virtualized tree view component using React and Konva, designed for displaying large organizational charts or tree structures efficiently.
+A high-performance virtualized tree view component using React and Konva, designed for displaying large tree structures efficiently.
 
 ## Installation
 
