@@ -32,23 +32,12 @@ const styles = {
 };
 
 export function DefaultNodeElement<T>({ node }: { node: NodeData<T> }) {
-  // Try to extract a label from nodeInfo
-  const label = 
-    typeof node.nodeInfo === 'string' ? node.nodeInfo :
-    // @ts-ignore
-    node.nodeInfo?.label || 
-    // @ts-ignore
-    node.nodeInfo?.name || 
-    // @ts-ignore
-    node.nodeInfo?.title || 
-    `Node ${node.id}`;
-
+  const label = (node?.nodeInfo as any)?.label || '';
   return (
     <div style={styles.container}>
       <div style={styles.circle}>
-        {/* Optional: Icon or initial could go here */}
       </div>
-      <div style={styles.label}>{label}</div>
+      {label && <div style={styles.label}>{label}</div>}
     </div>
   );
 }
